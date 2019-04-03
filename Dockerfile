@@ -2,7 +2,7 @@ FROM nvidia/cuda:8.0-cudnn5-devel
 # start with the nvidia container for cuda 8 with cudnn 5
 
 # forked from https://github.com/mjsobrep/DockerFiles-public
-LABEL maintainer "Gary Feng <gary.feng@gmail.com>"
+LABEL maintainer "Cherry"
 
 RUN apt-get update -y && apt-get upgrade -y
 RUN apt-get install wget unzip lsof apt-utils lsb-core -y
